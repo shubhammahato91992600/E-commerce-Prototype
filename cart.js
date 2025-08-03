@@ -97,9 +97,9 @@ function displayCartItems(cart) {
     
     // Mock product data - replace with actual API call in production
     const products = {
-        '1': { name: 'Wireless Headphones', price: 49.99, image: 'https://via.placeholder.com/100' },
-        '2': { name: 'Smart Watch', price: 129.99, image: 'https://via.placeholder.com/100' },
-        '3': { name: 'Bluetooth Speaker', price: 79.99, image: 'https://via.placeholder.com/100' },
+        '1': { name: 'Wireless Headphones', price: 49.99, image: 'https://m.media-amazon.com/images/I/61gOCNIvudL._AC_SL1500_.jpg' },
+        '2': { name: 'Smart Watch', price: 129.99, image: 'https://m.media-amazon.com/images/I/61ftG19NACL._AC_SL1500_.jpg' },
+        '3': { name: 'Bluetooth Speaker', price: 79.99, image: 'https://m.media-amazon.com/images/I/71hvGkBMFNL._AC_SL1500_.jpg' },
         '4': { name: 'Wireless Earbuds', price: 89.99, image: 'https://via.placeholder.com/100' },
         '5': { name: 'Fitness Tracker', price: 59.99, image: 'https://via.placeholder.com/100' },
         '6': { name: 'Power Bank 20000mAh', price: 39.99, image: 'https://via.placeholder.com/100' }
