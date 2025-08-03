@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEase - Categories</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="ecommerce.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <!-- Header (same as index.html) -->
+    <header class="header">
+        <a href="index.html" class="logo">Shop<span>Ease</span></a>
+        
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="offers.html">Offers</a>
+            <a href="categories.html" class="active">Categories</a>
+            <a href="cart.html"><i class="fas fa-shopping-cart"></i> <span id="cart-count">0</span></a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+
+        <div class="search-form">
+            <input type="search" placeholder="Search products..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+    </header>
+
+    <!-- Categories Banner -->
+    <section class="categories-banner">
+        <div class="content">
+            <h1 class="slide-left">Shop by <span>Category</span></h1>
+            <p class="slide-left">Browse our wide range of products</p>
+        </div>
+    </section>
+
+    <!-- Main Categories -->
+    <section class="main-categories">
+        <h1 class="heading">Browse <span>Categories</span></h1>
+        
+        <div class="category-container">
+            <!-- Category 1 -->
+            <div class="category-card scale-up">
+                <div class="category-image">
+                    <img src="https://via.placeholder.com/400x300" alt="Electronics">
+                    <div class="category-overlay">
+                        <h3>Electronics</h3>
+                        <p>50+ Products</p>
+                        <a href="#" class="btn">View All</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Category 2 -->
+            <div class="category-card scale-up">
+                <div class="category-image">
+                    <img src="https://via.placeholder.com/400x300" alt="Fashion">
+                    <div class="category-overlay">
+                        <h3>Fashion</h3>
+                        <p>120+ Products</p>
+                        <a href="#" class="btn">View All</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Category 3 -->
+            <div class="category-card scale-up">
+                <div class="category-image">
+                    <img src="https://via.placeholder.com/400x300" alt="Home & Kitchen">
+                    <div class="category-overlay">
+                        <h3>Home & Kitchen</h3>
+                        <p>75+ Products</p>
+                        <a href="#" class="btn">View All</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Category 4 -->
+            <div class="category-card scale-up">
+                <div class="category-image">
+                    <img src="https://via.placeholder.com/400x300" alt="Beauty">
+                    <div class="category-overlay">
+                        <h3>Beauty</h3>
+                        <p>90+ Products</p>
+                        <a href="#" class="btn">View All</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Category 5 -->
+            <div class="category-card scale-up">
+                <div class="category-image">
+                    <img src="https://via.placeholder.com/400x300" alt="Sports">
+                    <div class="category-overlay">
+                        <h3>Sports</h3>
+                        <p>60+ Products</p>
+                        <a href="#" class="btn">View All</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Category 6 -->
+            <div class="category-card scale-up">
+                <div class="category-image">
+                    <img src="https://via.placeholder.com/400x300" alt="Toys">
+                    <div class="category-overlay">
+                        <h3>Toys</h3>
+                        <p>45+ Products</p>
+                        <a href="#" class="btn">View All</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subcategories Section -->
+    <section class="subcategories">
+        <h1 class="heading">Popular <span>Subcategories</span></h1>
+        
+        <div class="subcategory-container">
+            <!-- Electronics Subcategories -->
+            <div class="subcategory-group fade-in">
+                <h2>Electronics</h2>
+                <div class="subcategory-list">
+                    <a href="#">Smartphones <span>(25)</span></a>
+                    <a href="#">Laptops <span>(18)</span></a>
+                    <a href="#">Headphones <span>(32)</span></a>
+                    <a href="#">Smart Watches <span>(15)</span></a>
+                    <a href="#">Cameras <span>(12)</span></a>
+                </div>
+            </div>
+            
+            <!-- Fashion Subcategories -->
+            <div class="subcategory-group fade-in">
+                <h2>Fashion</h2>
+                <div class="subcategory-list">
+                    <a href="#">Men's Clothing <span>(45)</span></a>
+                    <a href="#">Women's Clothing <span>(60)</span></a>
+                    <a href="#">Footwear <span>(35)</span></a>
+                    <a href="#">Accessories <span>(28)</span></a>
+                    <a href="#">Jewelry <span>(22)</span></a>
+                </div>
+            </div>
+            
+            <!-- Home & Kitchen Subcategories -->
+            <div class="subcategory-group fade-in">
+                <h2>Home & Kitchen</h2>
+                <div class="subcategory-list">
+                    <a href="#">Furniture <span>(30)</span></a>
+                    <a href="#">Kitchenware <span>(25)</span></a>
+                    <a href="#">Home Decor <span>(40)</span></a>
+                    <a href="#">Lighting <span>(18)</span></a>
+                    <a href="#">Bedding <span>(22)</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products by Category -->
+    <section class="featured-category-products">
+        <h1 class="heading">Featured <span>Products</span></h1>
+        
+        <div class="category-tabs">
+            <button class="tab-btn active" data-category="electronics">Electronics</button>
+            <button class="tab-btn" data-category="fashion">Fashion</button>
+            <button class="tab-btn" data-category="home">Home & Kitchen</button>
+        </div>
+        
+        <div class="tab-content active" id="electronics">
+            <div class="product-slider">
+                <!-- Product slides for electronics -->
+                <div class="slide scale-up">
+                    <div class="image">
+                        <img src="https://via.placeholder.com/300x300" alt="Wireless Headphones">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart add-to-cart" data-id="13"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Wireless Headphones</h3>
+                        <div class="price">$49.99 <span>$69.99</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- More electronics products -->
+            </div>
+        </div>
+        
+        <div class="tab-content" id="fashion">
+            <div class="product-slider">
+                <!-- Product slides for fashion -->
+                <div class="slide scale-up">
+                    <div class="image">
+                        <img src="https://via.placeholder.com/300x300" alt="Men's T-Shirt">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart add-to-cart" data-id="14"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Men's Premium T-Shirt</h3>
+                        <div class="price">$24.99 <span>$34.99</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- More fashion products -->
+            </div>
+        </div>
+        
+        <div class="tab-content" id="home">
+            <div class="product-slider">
+                <!-- Product slides for home -->
+                <div class="slide scale-up">
+                    <div class="image">
+                        <img src="https://via.placeholder.com/300x300" alt="Kitchen Blender">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart add-to-cart" data-id="15"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Premium Kitchen Blender</h3>
+                        <div class="price">$89.99 <span>$109.99</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- More home products -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (same as index.html) -->
+    <footer class="footer">
+        <!-- Same footer content as index.html -->
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="ecommerce.css"></script>
+    <script src="cart.js"></script>
+    <script>
+        // Tab functionality
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons and content
+                document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+                
+                // Add active class to clicked button and corresponding content
+                btn.classList.add('active');
+                const category = btn.getAttribute('data-category');
+                document.getElementById(category).classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>

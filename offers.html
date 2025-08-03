@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEase - Special Offers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="ecommerce.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <!-- Header (same as index.html) -->
+    <header class="header">
+        <a href="index.html" class="logo">Shop<span>Ease</span></a>
+        
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="offers.html" class="active">Offers</a>
+            <a href="categories.html">Categories</a>
+            <a href="cart.html"><i class="fas fa-shopping-cart"></i> <span id="cart-count">0</span></a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+
+        <div class="search-form">
+            <input type="search" placeholder="Search products..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+    </header>
+
+    <!-- Offers Banner -->
+    <section class="offers-banner">
+        <div class="content">
+            <h1 class="slide-left">Special <span>Offers</span></h1>
+            <p class="slide-left">Limited time deals on trending products</p>
+        </div>
+    </section>
+
+    <!-- Offers Section -->
+    <section class="offers">
+        <h1 class="heading">Current <span>Deals</span></h1>
+        
+        <div class="offer-container">
+            <!-- Offer 1 -->
+            <div class="offer-card scale-up">
+                <div class="offer-badge">50% OFF</div>
+                <div class="offer-image">
+                    <img src="https://via.placeholder.com/400x300" alt="Smartphone Offer">
+                </div>
+                <div class="offer-content">
+                    <h3>Premium Smartphone</h3>
+                    <div class="offer-price">
+                        <span class="original-price">$999.99</span>
+                        <span class="discounted-price">$499.99</span>
+                    </div>
+                    <div class="offer-timer">
+                        <h4>Hurry! Offer ends in:</h4>
+                        <div class="timer">
+                            <div>
+                                <span id="days">00</span>
+                                <p>Days</p>
+                            </div>
+                            <div>
+                                <span id="hours">00</span>
+                                <p>Hours</p>
+                            </div>
+                            <div>
+                                <span id="minutes">00</span>
+                                <p>Minutes</p>
+                            </div>
+                            <div>
+                                <span id="seconds">00</span>
+                                <p>Seconds</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn add-to-cart" data-id="7">Add to Cart</a>
+                </div>
+            </div>
+            
+            <!-- Offer 2 -->
+            <div class="offer-card scale-up">
+                <div class="offer-badge">30% OFF</div>
+                <div class="offer-image">
+                    <img src="https://via.placeholder.com/400x300" alt="Laptop Offer">
+                </div>
+                <div class="offer-content">
+                    <h3>Ultra Slim Laptop</h3>
+                    <div class="offer-price">
+                        <span class="original-price">$1299.99</span>
+                        <span class="discounted-price">$909.99</span>
+                    </div>
+                    <div class="offer-timer">
+                        <h4>Hurry! Offer ends in:</h4>
+                        <div class="timer">
+                            <div>
+                                <span id="days2">00</span>
+                                <p>Days</p>
+                            </div>
+                            <div>
+                                <span id="hours2">00</span>
+                                <p>Hours</p>
+                            </div>
+                            <div>
+                                <span id="minutes2">00</span>
+                                <p>Minutes</p>
+                            </div>
+                            <div>
+                                <span id="seconds2">00</span>
+                                <p>Seconds</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn add-to-cart" data-id="8">Add to Cart</a>
+                </div>
+            </div>
+            
+            <!-- Offer 3 -->
+            <div class="offer-card scale-up">
+                <div class="offer-badge">BUY 1 GET 1 FREE</div>
+                <div class="offer-image">
+                    <img src="https://via.placeholder.com/400x300" alt="Headphones Offer">
+                </div>
+                <div class="offer-content">
+                    <h3>Premium Headphones</h3>
+                    <div class="offer-price">
+                        <span class="original-price">$199.99</span>
+                        <span class="discounted-price">$199.99</span>
+                        <span class="offer-text">Buy 1 Get 1 Free</span>
+                    </div>
+                    <div class="offer-timer">
+                        <h4>Hurry! Offer ends in:</h4>
+                        <div class="timer">
+                            <div>
+                                <span id="days3">00</span>
+                                <p>Days</p>
+                            </div>
+                            <div>
+                                <span id="hours3">00</span>
+                                <p>Hours</p>
+                            </div>
+                            <div>
+                                <span id="minutes3">00</span>
+                                <p>Minutes</p>
+                            </div>
+                            <div>
+                                <span id="seconds3">00</span>
+                                <p>Seconds</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn add-to-cart" data-id="9">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Daily Deals -->
+    <section class="daily-deals">
+        <h1 class="heading">Daily <span>Deals</span></h1>
+        
+        <div class="deals-container">
+            <!-- Deal 1 -->
+            <div class="deal-card slide-left">
+                <div class="deal-image">
+                    <img src="https://via.placeholder.com/200x200" alt="Wireless Earbuds">
+                    <div class="deal-badge">-25%</div>
+                </div>
+                <div class="deal-content">
+                    <h3>Wireless Earbuds</h3>
+                    <div class="deal-price">
+                        <span class="original-price">$79.99</span>
+                        <span class="discounted-price">$59.99</span>
+                    </div>
+                    <div class="deal-progress">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%;"></div>
+                        </div>
+                        <p>Sold: 75/100</p>
+                    </div>
+                    <a href="#" class="btn add-to-cart" data-id="10">Add to Cart</a>
+                </div>
+            </div>
+            
+            <!-- Deal 2 -->
+            <div class="deal-card slide-up">
+                <div class="deal-image">
+                    <img src="https://via.placeholder.com/200x200" alt="Smart Watch">
+                    <div class="deal-badge">-30%</div>
+                </div>
+                <div class="deal-content">
+                    <h3>Smart Watch</h3>
+                    <div class="deal-price">
+                        <span class="original-price">$199.99</span>
+                        <span class="discounted-price">$139.99</span>
+                    </div>
+                    <div class="deal-progress">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%;"></div>
+                        </div>
+                        <p>Sold: 90/100</p>
+                    </div>
+                    <a href="#" class="btn add-to-cart" data-id="11">Add to Cart</a>
+                </div>
+            </div>
+            
+            <!-- Deal 3 -->
+            <div class="deal-card slide-right">
+                <div class="deal-image">
+                    <img src="https://via.placeholder.com/200x200" alt="Bluetooth Speaker">
+                    <div class="deal-badge">-40%</div>
+                </div>
+                <div class="deal-content">
+                    <h3>Bluetooth Speaker</h3>
+                    <div class="deal-price">
+                        <span class="original-price">$129.99</span>
+                        <span class="discounted-price">$77.99</span>
+                    </div>
+                    <div class="deal-progress">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 60%;"></div>
+                        </div>
+                        <p>Sold: 60/100</p>
+                    </div>
+                    <a href="#" class="btn add-to-cart" data-id="12">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="content">
+            <h3>Subscribe for Exclusive Offers</h3>
+            <p>Get notified about our latest deals and special offers</p>
+            <form action="">
+                <input type="email" placeholder="Enter your email" class="box">
+                <input type="submit" value="Subscribe" class="btn">
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer (same as index.html) -->
+    <footer class="footer">
+        <!-- Same footer content as index.html -->
+    </footer>
+
+    <script src="ecommerce.js"></script>
+    <script src="cart.js"></script>
+    <script>
+        // Countdown timer for offers
+        function updateTimer() {
+            const now = new Date();
+            const endDate = new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000); // 7 days from now
+            
+            const diff = endDate - now;
+            
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+            
+            document.getElementById('days').textContent = days.toString().padStart(2, '0');
+            document.getElementById('hours').textContent = Math.floor(hours).toString().padStart(2, '0');
+            document.getElementById('minutes').textContent = Math.floor(minutes).toString().padStart(2, '0');
+            document.getElementById('seconds').textContent = Math.floor(seconds).toString().padStart(2, '0');
+            
+            document.getElementById('days2').textContent = days.toString().padStart(2, '0');
+            document.getElementById('hours2').textContent = Math.floor(hours).toString().padStart(2, '0');
+            document.getElementById('minutes2').textContent = Math.floor(minutes).toString().padStart(2, '0');
+            document.getElementById('seconds2').textContent = Math.floor(seconds).toString().padStart(2, '0');
+            
+            document.getElementById('days3').textContent = days.toString().padStart(2, '0');
+            document.getElementById('hours3').textContent = Math.floor(hours).toString().padStart(2, '0');
+            document.getElementById('minutes3').textContent = Math.floor(minutes).toString().padStart(2, '0');
+            document.getElementById('seconds3').textContent = Math.floor(seconds).toString().padStart(2, '0');
+        }
+        
+        setInterval(updateTimer, 1000);
+        updateTimer();
+    </script>
+</body>
+</html>
